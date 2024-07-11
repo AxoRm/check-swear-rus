@@ -20,8 +20,8 @@ setup(
         'check_swear.model_prep': ['*.json'],
     },
     install_requires=[
-        "scikit-learn==1.4.0",
-        "joblib==1.3.2",
+        "scikit-learn>=1.4.0",
+        "joblib>=1.3.2",
         "nltk>=3.8.1",
     ],
     classifiers=[
